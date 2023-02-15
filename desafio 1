@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background: #2E948A;
+    width: 100%;
+    height: 117px;
+    
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    /* display: flex; */
+    color: #FDFDFD;
+
+}
+
+.header {
+    display: flex;
+
+}
+
+#logo {
+
+    margin-left: 76.875px;
+    margin-top: 20px;
+}
+
+#foto2 {
+    margin-left: 10.315px;
+    margin-top: 29px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+
+#cursos {
+    margin-left: 612.187px;
+    margin-top: 47px;
+    font-size: 22.98px;
+}
+
+#blog {
+    /* margin-left: 39px; */
+    margin-top: 47px;
+    font-size: 22.98px;
+}
+
+#contato {
+    font-size: 22.98px;
+    margin-top: 47px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 60px;
+    color: #FDFDFD;
+}
+
+h1 {
+    color: #FF4081;
+    margin-left: 80px;
+    margin-top: 81px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+
+
+    text-transform: capitalize;
+}
+
+h2 {
+    position: absolute;
+    width: 317px;
+    height: 23px;
+    left: 82px;
+    top: 267px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #555555;
+}
+
+#poupando {
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.curso {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    
+    border-bottom: 5px solid #C4C4C4;
+}
+   
+    
+#botao-1{
+    margin-left: 25px;
+}
+
+
+button {
+    margin-top: 20px;
+    width: 233px;
+    height: 51px;
+    background: #419488;
+    border-radius: 62px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+
+h3 {margin-left: 25px;
+    margin-top: 80px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+h4 {
+    width:700px;
+    margin-left: 25px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.poup{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        border-bottom: 5px solid #C4C4C4;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 50px;
+  }      
+
+#investimento {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    
+}
+
+h5 p{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+
+    color: #FF4081;
+}
+
+
+h6 {margin-left: 25px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    width: 700px;
+    color: #000000;
+}
+
+#botao-2{
+    margin-left: 25px;
+}
+
+#independencia {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.ind{ 
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 150px;
+
+}
+
+h7 p {
+
+    margin-left: 25px;
+    margin-top: 110px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    
+
+    color: #FF4081;
+}
+
+h8 p{
+    margin-left: 25px;
+    
+    width: 700px;
+    height: 105px;
+  
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+#botao-3{
+    margin-left: 25px;
+}
+
+
+footer {
+    
+    width: 100%;
+    height: 207px;
+    
+
+    background: #419488;
+}
+
+#foto3 {
+
+    margin-left: -119px;
+    margin-top: 59px;
+}
+
+
+
+
+
+
+footer ul {
+    display: block;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 60px;
+    color: #FFFFFF;
+}
+
+#prof {
+    left: 73.26%;
+    right: 12.36%;
+    top: 30.92%;
+    bottom: 57.97%;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 507px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.pe{
+    display: flex;
+    justify-content: space-evenly;
+}
